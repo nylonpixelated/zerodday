@@ -689,7 +689,7 @@ run(function()
 end)
 	
 run(function()
-	local Killaura
+	local Aura
 	local Targets
 	local AttackRange
 	local AngleCheck
@@ -719,7 +719,7 @@ run(function()
 		return (not Limit.Enabled) and store.tools.sword or store.hand
 	end
 	
-	Killaura = vape.Categories.Blatant:CreateModule({
+	Aura = vape.Categories.Blatant:CreateModule({
 		Name = 'Killaura',
 		Function = function(callback)
 			if callback then
